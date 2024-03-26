@@ -19,9 +19,9 @@ public class TvShow {
             putPrise();
             System.out.println(STR."Prize is in box #\{prizeDoor}");
             playerTurn();
-            System.out.println(STR."Player selected box #\{playerDoor}");
+            System.out.println(player);
             showManTurn();
-            System.out.println(STR."Showman opened box #\{showmanDoor}");
+            System.out.println(showman);
             playerSecondTurn();
             System.out.println(STR."Player has selected new box #\{playerDoor}");
             results.put(i, playerDoor == prizeDoor);
